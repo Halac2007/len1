@@ -23,7 +23,7 @@ body {
 
 /*======= Header =======*/
 header {
-    z-index: 999;
+  z-index: 999;
   position: fixed;
   width: 100%;
   height: calc(5rem + 1rem);
@@ -33,7 +33,6 @@ header {
   justify-content: center;
   transition: 0.5s ease;
   transition-property: height, background;
-
 }
 header.sticky {
   height: calc(2.5rem + 1rem);
@@ -70,7 +69,7 @@ header .nav-bar {
 }
 .nav-bar .logo img {
   height: 50px;
-  width: 100%;
+
   top: 2px;
 }
 .navigation .nav-items a {
@@ -526,9 +525,9 @@ figure {
 }
 
 .box-comment .box-heading a {
-  font-weight: 700;
-  font-size: 22px;
-  line-height: 25px;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.5;
   text-transform: uppercase;
   color: var(--color-white);
   display: block;
