@@ -51,7 +51,7 @@ header .nav-bar {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(20px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  height: calc(2.5rem + 1rem);
+  height: calc(2.2rem + 1rem);
 }
 
 .nav-close-btn,
@@ -806,19 +806,18 @@ figure {
 }
 
 .box-style-16 .story__heading a {
-  font-weight: 700;
-
+  font-weight: bold;
   color: var(--color-heading);
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.5;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 .box-style-16 .story__time {
   font-weight: 400;
-  font-size: 13px;
+  font-size: 1rem;
   line-height: 15px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
   display: block;
   color: #888;
   margin-top: 8px;
@@ -829,9 +828,9 @@ figure {
   margin-top: 8px;
   color: var(--color-summary);
 
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.5;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
 }
 /*------------footer-----------------*/
 .site-footer {
@@ -1079,6 +1078,15 @@ figure {
   .navigation .rank-1 .wrap-iframe {
     display: none;
   }
+  .site-footer .nav-footer .wrap-fanpage {
+    display: none;
+  }
+  .site-footer .rank-1 .wrap-logo {
+    display: none;
+  }
+  .site-footer .footer-info {
+    margin: 2rem;
+  }
 }
 
 @media only screen and (max-width: 767px) and (min-width: 481px) {
@@ -1232,7 +1240,7 @@ figure {
   }
   blockquote {
     padding-left: 0px;
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
   .article__tag .box-content {
     padding-left: 1.2rem;
@@ -1263,7 +1271,7 @@ figure {
   }
   .box-style-16 .story__heading a {
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 700;
   }
   .site-footer ul {
     margin: 0px;
@@ -1314,7 +1322,7 @@ figure {
     font-size: 3rem;
   }
   blockquote {
-    font-size: 2.5rem;
+    font-size: 3rem;
     padding-left: 0px;
   }
 
