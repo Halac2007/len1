@@ -448,7 +448,7 @@ figure {
   margin: 10px;
   padding: 10px;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -1115,6 +1115,16 @@ figure {
   .site-footer .footer-info {
     margin: 2rem;
   }
+  .caption {
+    position: relative;
+    bottom: 0;
+    color: #333;
+    transform: translateX(0px);
+  }
+  .caption p {
+    margin: 0px;
+    padding: 0px;
+  }
 }
 
 @media only screen and (max-width: 767px) and (min-width: 481px) {
@@ -1174,6 +1184,17 @@ figure {
     font-size: 13px;
     margin: 0px;
   }
+  .caption {
+    position: relative;
+    bottom: 0;
+    color: #333;
+    transform: translateX(0px);
+  }
+  .caption p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 0.8rem;
+  }
 }
 
 @media only screen and (max-width: 550px) and (min-width: 482px) {
@@ -1203,6 +1224,18 @@ figure {
   }
   .box-style-16 .story__heading a {
     font-size: 1rem;
+  }
+  .caption {
+    position: relative;
+    bottom: 0;
+    color: #333;
+
+    transform: translateX(0px);
+  }
+  .caption p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 0.8rem;
   }
 }
 @media only screen and (max-width: 480px) and (min-width: 320px) {
@@ -1333,10 +1366,13 @@ figure {
     position: relative;
     bottom: 0;
     color: #333;
+
+    transform: translateX(0px);
   }
   .caption p {
     margin: 0px;
     padding: 0px;
+    font-size: 0.8rem;
   }
 }
 
