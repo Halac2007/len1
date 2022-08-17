@@ -452,6 +452,34 @@ figure {
   font-family: 'Poppins', sans-serif;
 }
 
+.box-inner {
+  display: flex;
+}
+
+.box-inner .box-left {
+  width: 55%;
+  padding-right: 15px;
+}
+
+.box-inner .box-left p {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.box-inner .box-right {
+  width: 45%;
+  padding-left: 15px;
+}
+
+.video-wrapper {
+  margin: 0 auto;
+  max-width: 950px;
+}
+
+.caption-video {
+  text-align: center;
+  font-style: italic;
+}
 /*---------------------tin liên quan-----------------*/
 
 .box-style-21 {
@@ -1097,6 +1125,7 @@ figure {
     margin: 0 auto;
     max-width: 700px;
   }
+
   .hero figure {
     background-size: contain;
   }
@@ -1124,6 +1153,21 @@ figure {
   .caption p {
     margin: 0px;
     padding: 0px;
+  }
+  .video-wrapper {
+    margin: 0 auto;
+    max-width: 700px;
+  }
+
+  .box-inner {
+    display: block;
+  }
+
+  .box-inner .box-left {
+    width: 100%;
+  }
+  .box-inner .box-right {
+    width: 100%;
   }
 }
 
@@ -1195,6 +1239,32 @@ figure {
     padding: 0px;
     font-size: 0.8rem;
   }
+  .video-wrapper {
+    margin: 0 auto;
+    max-width: 700px;
+  }
+
+  .box-inner {
+    display: block;
+  }
+
+  .box-inner .box-left {
+    width: 100%;
+  }
+  .box-inner .box-right {
+    width: 100%;
+  }
+
+  .box-inner {
+    display: block;
+  }
+
+  .box-inner .box-left {
+    width: 100%;
+  }
+  .box-inner .box-right {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 550px) and (min-width: 482px) {
@@ -1236,6 +1306,21 @@ figure {
     margin: 0px;
     padding: 0px;
     font-size: 0.8rem;
+  }
+  .video-wrapper {
+    margin: 0 auto;
+    max-width: 500px;
+  }
+
+  .box-inner {
+    display: block;
+  }
+
+  .box-inner .box-left {
+    width: 100%;
+  }
+  .box-inner .box-right {
+    width: 100%;
   }
 }
 @media only screen and (max-width: 480px) and (min-width: 320px) {
@@ -1374,6 +1459,21 @@ figure {
     padding: 0px;
     font-size: 0.8rem;
   }
+  .video-wrapper {
+    margin: 0 auto;
+    max-width: 420px;
+  }
+
+  .box-inner {
+    display: block;
+  }
+
+  .box-inner .box-left {
+    width: 100%;
+  }
+  .box-inner .box-right {
+    width: 100%;
+  }
 }
 
 @media (width: 320px) {
@@ -1403,5 +1503,20 @@ figure {
 
   .beer-handle {
     bottom: -1%;
+  }
+
+  .video-wrapper {
+    margin: 0 auto;
+    max-width: 270px;
+  }
+  .box-inner {
+    display: block;
+  }
+
+  .box-inner .box-left {
+    width: 100%;
+  }
+  .box-inner .box-right {
+    width: 100%;
   }
 }
